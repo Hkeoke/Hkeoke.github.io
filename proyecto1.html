@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación móvil para restaurante</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        css Copy header {
+            background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background-color: #4ca1af;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            color: #35424a;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        section h2 {
+            color: #4ca1af;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .screenshot-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            text-align: center;
+        }
+
+        .screenshot {
+            margin-bottom: 20px;
+        }
+
+        .screenshot img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .screenshot-description {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .description {
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(to right, #4ca1af, #c4e0e5);
+            color: black;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Aplicación móvil para restaurante</h1>
+    </header>
+    <nav>
+        <a href="https://github.com/Hkeoke/flutter_apprestaurant" target="_blank">Ver código fuente</a>
+        <a href="restaurante-app.apk" download>Descargar APK</a>
+    </nav>
+    <section>
+        <h2>Descripción del proyecto</h2>
+        <div class="description">
+            <p>La aplicación móvil para restaurante es un proyecto que desarrollé utilizando Flutter. La aplicación
+                permite a los clientes de un restaurante ver el menú, hacer pedidos, y enviar sus pedidos por Whatsapp
+                de manera sencilla y eficiente desde sus dispositivos móviles.</p>
+            <p>Algunas de las principales funcionalidades de la aplicación incluyen:</p>
+            <ul>
+                <li>Visualización del menú completo con imágenes y descripciones de los platos</li>
+                <li>Selección de platos y personalización de pedidos</li>
+                <li>Envío del pedido por Whatsapp</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Capturas de pantalla</h2>
+        <div class="screenshot-container">
+            <div class="screenshot">
+                <img src="principal.png" alt="Captura de pantalla 1" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de inicio</p>
+            </div>
+            <div class="screenshot">
+                <img src="menu1.png" alt="Captura de pantalla 2" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de menú platos</p>
+            </div>
+            <div class="screenshot">
+                <img src="menu2.png" alt="Captura de pantalla 3" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de menú bebidas</p>
+            </div>
+            <div class="screenshot">
+                <img src="menu3.png" alt="Captura de pantalla 4" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de menú postres</p>
+            </div>
+            <div class="screenshot">
+                <img src="drawer.png" alt="Captura de pantalla 5" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de Lateral</p>
+            </div>
+            <div class="screenshot">
+                <img src="pedido.png" alt="Captura de pantalla 6" width="300" height="auto">
+                <p class="screenshot-description">Pantalla de pedido</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Contacto: 58538342</p>
+    </footer>
+</body>
+
+</html>
